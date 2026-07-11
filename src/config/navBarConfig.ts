@@ -7,19 +7,10 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.Friends,
 		{
-			name: "More",
-			url: "#",
-			icon: "material-symbols:more-horiz",
-			children: [
-				LinkPreset.Projects,
-				LinkPreset.Skills,
-				{
-					name: "GitHub",
-					url: "https://github.com/ziddzide",
-					external: true,
-					icon: "fa7-brands:github",
-				},
-			],
+			name: "GitHub",
+			url: "https://github.com/ziddzide",
+			external: true,
+			icon: "fa7-brands:github",
 		},
 		LinkPreset.About,
 	],

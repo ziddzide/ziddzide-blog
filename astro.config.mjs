@@ -6,7 +6,7 @@ import { pluginCollapsibleSections } from "@expressive-code/plugin-collapsible-s
 import { pluginLineNumbers } from "@expressive-code/plugin-line-numbers";
 import swup from "@swup/astro";
 import tailwindcss from "@tailwindcss/vite";
-import { defineConfig, fontProviders } from "astro/config";
+import { defineConfig } from "astro/config";
 import expressiveCode from "astro-expressive-code";
 import icon from "astro-icon";
 import { oddmisc } from "oddmisc";
@@ -35,34 +35,9 @@ import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
 
 // https://astro.build/config
 export default defineConfig({
-	fonts: [
-		{
-			name: "JetBrains Mono",
-			cssVariable: "--font-jetbrains-mono",
-			provider: fontProviders.fontsource(),
-			styles: ["normal", "italic"],
-		},
-		{
-			name: "Noto Serif SC",
-			cssVariable: "--font-body",
-			provider: fontProviders.google(),
-			options: {
-				weights: [400, 700],
-				subsets: ["chinese-simplified", "latin"],
-			},
-			fallbacks: ["STSong", "SimSun", "Songti SC", "serif"],
-		},
-		{
-			name: "Noto Serif SC",
-			cssVariable: "--font-cjk",
-			provider: fontProviders.google(),
-			options: {
-				weights: [400, 700],
-				subsets: ["chinese-simplified", "latin"],
-			},
-			fallbacks: ["STSong", "SimSun", "Songti SC", "serif"],
-		},
-	],
+	// 字体通过 Layout.astro 中的 Google Fonts CDN 和 CSS 变量加载
+	// 不使用 Astro Font API，避免构建时 WASM 内存溢出
+	fonts: [],
 
 	site: siteConfig.siteURL,
 	base: "/ziddzide-blog/",

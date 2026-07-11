@@ -21,8 +21,8 @@ export const siteConfig: SiteConfig = {
 		anime: false, // 番剧页面 — 不需要
 		diary: false, // 日记页面 — 不需要
 		friends: true, // 友链页面
-		projects: true, // 项目页面
-		skills: true, // 技能页面
+		projects: false, // 项目页面 — 不需要
+		skills: false, // 技能页面 — 不需要
 		timeline: false, // 时间线页面 — 不需要
 		albums: false, // 相册页面 — 不需要
 		devices: false, // 设备页面 — 不需要
