@@ -2,7 +2,7 @@ import type { AnnouncementConfig } from "../types/config";
 
 // 公告栏配置
 export const announcementConfig: AnnouncementConfig = {
-	title: "", // 公告标题，填空使用i18n字符串Key.announcement
+	title: "公告", // 公告标题
 	content: "欢迎来到 Ziddzide Blog！网络安全 · 渗透测试 · 网络工程 · 运维实践", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {

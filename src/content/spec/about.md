@@ -1,49 +1,29 @@
+## 👋 关于我
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/LyraVoid/Mizuki) theme.
+我是 **Ziddzide**，一名网络安全工程师，专注于渗透测试、网络工程和运维实践。
 
-::github{repo="LyraVoid/Mizuki"}
+这个博客用于记录我的技术研究、学习笔记和实战经验。
 
-## 🌟 Theme Features
+## 🛠 技术方向
 
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
+- 🔍 **渗透测试** — Web 安全、内网渗透、红队技术
+- 🌐 **网络工程** — 协议分析、网络架构、设备配置
+- ⚙️ **运维实践** — Linux 运维、自动化、监控告警
+- 🛡️ **安全研究** — 漏洞分析、威胁情报、应急响应
 
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
+## 📊 GitHub 活动
 
+以下是我在 GitHub 上的贡献活动：
 
+## 🔗 链接
 
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
+::github{repo="ziddzide/ziddzide-blog"}
 
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
+## 📬 联系
 
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
+- **GitHub**: [@ziddzide](https://github.com/ziddzide)
+- **Email**: luxin_websec@163.com
 
 ---
 
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+*基于 [Mizuki](https://github.com/LyraVoid/Mizuki) 主题 & [Astro](https://astro.build) 构建*
