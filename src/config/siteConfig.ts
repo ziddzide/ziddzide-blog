@@ -97,12 +97,13 @@ export const siteConfig: SiteConfig = {
 
 	banner: {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
+		// 注意：路径不以 / 开头，以便在 GitHub Pages 子目录（如 /ziddzide-blog/）下正确加载
 		src: {
 			desktop: [
-				"/assets/desktop-banner/girl.png",
+				"assets/desktop-banner/girl.png",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/desktop-banner/girl.png",
+				"assets/desktop-banner/girl.png",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
