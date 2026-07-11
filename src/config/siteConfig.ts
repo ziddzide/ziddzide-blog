@@ -33,8 +33,8 @@ export const siteConfig: SiteConfig = {
 	navbarTitle: {
 		mode: "text-icon",
 		text: "Ziddzide",
-		icon: "assets/home/home.webp",
-		logo: "assets/home/default-logo.webp",
+		icon: "", // 不使用图标
+		logo: "", // 不使用 logo
 	},
 
 	// 页面自动缩放配置
@@ -99,16 +99,10 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.webp",
-				"/assets/desktop-banner/2.webp",
-				"/assets/desktop-banner/3.webp",
-				"/assets/desktop-banner/4.webp",
+				"/assets/desktop-banner/girl.png",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/1.webp",
-				"/assets/mobile-banner/2.webp",
-				"/assets/mobile-banner/3.webp",
-				"/assets/mobile-banner/4.webp",
+				"/assets/desktop-banner/girl.png",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
