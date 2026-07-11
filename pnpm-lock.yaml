@@ -65,9 +65,6 @@ importers:
       dayjs:
         specifier: ^1.11.21
         version: 1.11.21
-      github-contrib-graph:
-        specifier: ^3.1.1
-        version: 3.1.1
       hastscript:
         specifier: ^9.0.1
         version: 9.0.1
@@ -2975,18 +2972,6 @@ packages:
   get-tsconfig@5.0.0-beta.4:
     resolution: {integrity: sha512-7nF7C9fIPFEMHgEMEfgIlO9wDdZ8CyHw27rWciFZfHvHDReIiPhsYuzPRXsfvBCqFy1l8RRyyWV7QLM+ZhUJsQ==}
     engines: {node: '>=20.20.0'}
-
-  github-contrib-graph@3.1.1:
-    resolution: {integrity: sha512-QqbXuHzvvvcG6Ha1ohA+olMpYVVPudmA9IXovo6maqTyNzM1xiEGjMkF8Ta02qvkROSfeJ/ZogBebJG3AWzIfw==}
-    engines: {node: '>=18.0.0'}
-    peerDependencies:
-      react: '>=16.8.0'
-      react-dom: '>=16.8.0'
-    peerDependenciesMeta:
-      react:
-        optional: true
-      react-dom:
-        optional: true
 
   github-slugger@2.0.0:
     resolution: {integrity: sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw==}
@@ -8578,8 +8563,6 @@ snapshots:
   get-tsconfig@5.0.0-beta.4:
     dependencies:
       resolve-pkg-maps: 1.0.0
-
-  github-contrib-graph@3.1.1: {}
 
   github-slugger@2.0.0: {}
 

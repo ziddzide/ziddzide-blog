@@ -43,34 +43,24 @@ export default defineConfig({
 			styles: ["normal", "italic"],
 		},
 		{
-			name: "ZenMaruGothic-Medium",
+			name: "Noto Serif SC",
 			cssVariable: "--font-body",
-			provider: fontProviders.local(),
+			provider: fontProviders.google(),
 			options: {
-				variants: [
-					{
-						src: ["./src/assets/fonts/ZenMaruGothic-Medium.ttf"],
-						weight: "500",
-						style: "normal",
-					},
-				],
+				weights: [400, 700],
+				subsets: ["chinese-simplified", "latin"],
 			},
-			fallbacks: ["sans-serif"],
+			fallbacks: ["STSong", "SimSun", "Songti SC", "serif"],
 		},
 		{
-			name: "Loli",
+			name: "Noto Serif SC",
 			cssVariable: "--font-cjk",
-			provider: fontProviders.local(),
+			provider: fontProviders.google(),
 			options: {
-				variants: [
-					{
-						src: ["./src/assets/fonts/loli.ttf"],
-						weight: "400",
-						style: "normal",
-					},
-				],
+				weights: [400, 700],
+				subsets: ["chinese-simplified", "latin"],
 			},
-			fallbacks: ["sans-serif"],
+			fallbacks: ["STSong", "SimSun", "Songti SC", "serif"],
 		},
 	],
 

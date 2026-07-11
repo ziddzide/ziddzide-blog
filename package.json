@@ -43,7 +43,6 @@
     "astro-icon": "^1.1.5",
     "axios": "^1.18.1",
     "dayjs": "^1.11.21",
-    "github-contrib-graph": "^3.1.1",
     "hastscript": "^9.0.1",
     "katex": "^0.17.0",
     "l2d-widget": "^0.1.0",
