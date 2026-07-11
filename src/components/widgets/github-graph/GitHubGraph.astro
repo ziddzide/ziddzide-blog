@@ -9,8 +9,10 @@
 <script>
   import { GitHubContributionWidget } from "github-contrib-graph";
 
-  const container = document.getElementById("github-graph");
-  if (container) {
+  function initGitHubGraph() {
+    const container = document.getElementById("github-graph");
+    if (!container || container.dataset.loaded) return;
+    container.dataset.loaded = "true";
     const widget = new GitHubContributionWidget({
       username: "ziddzide",
       container,
@@ -18,4 +20,11 @@
     });
     widget.render();
   }
+
+  // 首次加载
+  initGitHubGraph();
+
+  // Swup 页面切换后重新初始化
+  document.addEventListener("swup:contentReplaced", initGitHubGraph);
+  document.addEventListener("mizuki:page:loaded", initGitHubGraph);
 </script>
