@@ -1,0 +1,7 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "src/content/posts",
+  "attachmentFolderPath": "public/images",
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true
+}

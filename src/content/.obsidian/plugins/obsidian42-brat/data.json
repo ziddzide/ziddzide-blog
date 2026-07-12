@@ -1,0 +1,24 @@
+{
+  "pluginList": [
+    "davidvkimball/obsidian-astro-composer"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "davidvkimball/obsidian-astro-composer",
+      "version": ""
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "globalTokenName": "",
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": true,
+  "allowIncompatiblePlugins": true
+}

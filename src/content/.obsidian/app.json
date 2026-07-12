@@ -1,0 +1,6 @@
+{
+  "openBehavior": "file:src/content/posts",
+  "newLinkFormat": "absolute",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "posts"
+}
