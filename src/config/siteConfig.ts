@@ -100,12 +100,12 @@ export const siteConfig: SiteConfig = {
 		// 注意：路径不以 / 开头，以便在 GitHub Pages 子目录（如 /ziddzide-blog/）下正确加载
 		src: {
 			desktop: [
-				"assets/desktop-banner/girl.png",
-			], // 桌面横幅图片
+				"https://ziddzide-blog-pirture-1406647554.cos.ap-beijing.myqcloud.com/index/jk.png",
+			], // 桌面横幅图片(腾讯 COS)
 			mobile: [
-				"assets/desktop-banner/girl.png",
-			], // 移动横幅图片
-		}, // 使用本地横幅图片
+				"https://ziddzide-blog-pirture-1406647554.cos.ap-beijing.myqcloud.com/index/jk.png",
+			], // 移动横幅图片(腾讯 COS)
+		}, // 使用腾讯 COS 远程横幅
 
 		position: "center", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
 
