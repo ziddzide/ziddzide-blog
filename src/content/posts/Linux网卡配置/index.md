@@ -10,7 +10,7 @@ tags:
   - dns
   - DHCP
   - 子网掩码
-category: 数据通信
+category: Linux运维
 pinned: false
 comment: true
 author: Ziddzide
