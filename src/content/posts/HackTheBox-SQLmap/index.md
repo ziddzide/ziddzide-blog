@@ -1,6 +1,6 @@
 ---
 title: HackTheBox-SQLmap
-published: 2026-07-15
+published: 2026-06-17
 updated: 2026-07-15
 draft: false
 description: SQLmap的使用方法
