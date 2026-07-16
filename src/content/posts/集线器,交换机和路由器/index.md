@@ -80,3 +80,6 @@ MAC报文报头最后四位FCS存放了发送方通过循环冗余校验(CRC)计
 * [https://ziddzide.github.io/ziddzide-blog/posts/子网掩码和子网划分/](https://ziddzide.github.io/ziddzide-blog/posts/%E5%AD%90%E7%BD%91%E6%8E%A9%E7%A0%81%E5%92%8C%E5%AD%90%E7%BD%91%E5%88%92%E5%88%86/)
 * [https://ziddzide.github.io/ziddzide-blog/posts/动态路由协议/](https://ziddzide.github.io/ziddzide-blog/posts/%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E5%8D%8F%E8%AE%AE/)
 
+# 额外的内容
+
+[https://ziddzide.github.io/ziddzide-blog/posts/广播域和冲突域](https://ziddzide.github.io/ziddzide-blog/posts/%7f%ad%df%8c%b2%81%df/)
